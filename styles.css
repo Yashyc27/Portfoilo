@@ -1,0 +1,159 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0c0c0c;
+    color: #00ffcc;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.retro-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.6);
+}
+
+/* Header Section */
+.retro-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ffcc;
+    margin-bottom: 15px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #ff6699;
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    color: #ff6699;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 5px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+}
+
+p, ul {
+    margin-bottom: 10px;
+}
+
+/* Timeline Styling */
+.timeline {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px dashed #00ffcc;
+}
+
+.timeline-event {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.event-marker {
+    width: 10px;
+    height: 10px;
+    background: #00ffcc;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+    top: 5px;
+}
+
+.event-details h3 {
+    font-size: 1.2em;
+    color: #ff6699;
+}
+
+.event-details p {
+    font-size: 0.9em;
+}
+
+/* Projects Section */
+.projects .project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 a {
+    color: #ff6699;
+    text-decoration: none;
+}
+
+.project-item h3 a:hover {
+    text-decoration: underline;
+}
+
+/* Major Skills Section */
+.major-skills {
+    display: block; /* Change from flex to block layout */
+}
+
+.skill-item {
+    margin-top: 10px; /* Add spacing between skill items */
+    background: #0c0c0c;
+    border: 2px solid #00ffcc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* Certifications Section */
+.certifications ul {
+    list-style: none;
+}
+
+.certifications li {
+    margin-bottom: 10px;
+}
+
+.certifications a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+.certifications a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #999;
+}
+
+footer p {
+    font-size: 0.8em;
+}
